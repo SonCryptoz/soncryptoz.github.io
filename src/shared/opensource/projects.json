@@ -1,0 +1,193 @@
+{
+    "data": [
+        {
+            "id": "R_kgDOOUfQnQ",
+            "name": "Linh-Kien-Nam-Anh",
+            "createdAt": "2025-01-02",
+            "url": "https://github.com/SonCryptoz/Linh-Kien-Nam-Anh",
+            "repo": "https://github.com/SonCryptoz/Linh-Kien-Nam-Anh",
+            "description": "Website linh kiện điện tử cho khách hàng thực tế. Tích hợp quản lý sản phẩm và giỏ hàng bằng PHP, MySQL.",
+            "images": [
+                "../../assets/images/lkna-2.png",
+                "../../assets/images/lkna-1.png",
+                "../../assets/images/lkna-3.png",
+                "../../assets/images/lkna-4.png",
+                "../../assets/images/lkna-5.png",
+                "../../assets/images/lkna-6.png",
+                "../../assets/images/lkna-7.png",
+                "../../assets/images/lkna-8.png"
+            ],
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "HTML",
+                    "iconifyClass": "logos-html-5"
+                },
+                {
+                    "name": "CSS",
+                    "iconifyClass": "logos-css-3"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "PHP",
+                    "iconifyClass": "logos-php"
+                },
+                {
+                    "name": "MySQL",
+                    "iconifyClass": "devicon:mysql"
+                }
+            ]
+        },
+        {
+            "id": "R_kgDOOUfd1Q",
+            "name": "Nhom-Kinh-Nhat-Kim",
+            "createdAt": "2025-02-16",
+            "url": "http://nhatkimwindow.com",
+            "repo": "https://github.com/SonCryptoz/Nhom-Kinh-Nhat-Kim",
+            "description": "Website giới thiệu doanh nghiệp cho khách hàng thực tế, trình bày thông tin công ty, dịch vụ và dự án tiêu biểu.",
+            "images": [
+                "../../assets/images/nkwd-1.png",
+                "../../assets/images/nkwd-2.png",
+                "../../assets/images/nkwd-3.png",
+                "../../assets/images/nkwd-4.png",
+                "../../assets/images/nkwd-5.png"
+            ],
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "HTML",
+                    "iconifyClass": "logos-html-5"
+                },
+                {
+                    "name": "CSS",
+                    "iconifyClass": "logos-css-3"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "PHP",
+                    "iconifyClass": "logos-php"
+                },
+                {
+                    "name": "MySQL",
+                    "iconifyClass": "devicon:mysql"
+                }
+            ]
+        },
+        {
+            "id": "R_kgDOOxw2JA",
+            "name": "realtime-chat-app",
+            "createdAt": "2025-05-28",
+            "url": "https://realtime-chat-app-sa7n.onrender.com/",
+            "repo": "https://github.com/SonCryptoz/realtime-chat-app",
+            "description": "Website nhắn tin thời gian thực, đồng bộ tin nhắn tức thì bằng Socket.io. Hỗ trợ trạng thái người dùng online và lưu trữ lịch sử trò chuyện với MongoDB.",
+            "images": [
+                "../../assets/images/chat-2.png",
+                "../../assets/images/chat-1.png",
+                "../../assets/images/chat-3.png",
+                "../../assets/images/chat-4.png"
+            ],
+            "isFork": false,
+            "languages": [
+                { "name": "ReactJS", "iconifyClass": "logos:react" },
+                { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+                {
+                    "name": "TailwindCSS",
+                    "iconifyClass": "vscode-icons:file-type-tailwind"
+                },
+                { "name": "NodeJS", "iconifyClass": "logos:nodejs-icon" },
+                {
+                    "name": "ExpressJS",
+                    "iconifyClass": "skill-icons:expressjs-dark"
+                },
+                { "name": "Socket.io", "iconifyClass": "logos:socket-io" },
+                {
+                    "name": "MongoDB",
+                    "iconifyClass": "vscode-icons:file-type-mongo"
+                }
+            ]
+        },
+        {
+            "id": "R_kgDOAuiWc5",
+            "name": "ai-movie-chatbot",
+            "createdAt": "2026-01-15",
+            "url": "https://ai-movie-chatbot-nw4x.onrender.com",
+            "repo": "https://github.com/SonCryptoz/ai-movie-chatbot",
+            "description": "Chatbot AI hỗ trợ tìm kiếm và so sánh phim. Áp dụng kiến trúc RAG với embedding, vector search và Gemini để truy xuất và sinh câu trả lời theo ngữ cảnh.",
+            "images": [
+                "../../assets/images/mchat-2.png",
+                "../../assets/images/mchat-1.png",
+                "../../assets/images/mchat-3.png",
+                "../../assets/images/mchat-4.png",
+                "../../assets/images/mchat-5.png",
+                "../../assets/images/mchat-6.png"
+            ],
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "Next.js / React",
+                    "iconifyClass": "logos:nextjs-icon"
+                },
+                { "name": "Supabase", "iconifyClass": "logos:supabase-icon" },
+                {
+                    "name": "Embedding (Xenova)",
+                    "iconifyClass": "streamline-color:ai-edit-spark-flat"
+                },
+                {
+                    "name": "TailwindCSS",
+                    "iconifyClass": "vscode-icons:file-type-tailwind"
+                },
+                { "name": "TypeScript", "iconifyClass": "devicon:typescript" },
+                { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+                {
+                    "name": "Gemini",
+                    "iconifyClass": "vscode-icons:file-type-gemini"
+                }
+            ]
+        },
+        {
+            "id": "R_kgDOAuiWc1",
+            "name": "ai-video-generator",
+            "createdAt": "2025-10-31",
+            "url": "https://ai-video-generator-yw3i.onrender.com",
+            "repo": "https://github.com/SonCryptoz/ai-video-generator",
+            "description": "Website tạo video ngắn từ mô tả văn bản. Build pipeline xử lý media text-to-image và video rendering, tùy chỉnh được nội dung và độ dài.",
+            "images": [
+                "../../assets/images/vchat-6.png",
+                "../../assets/images/vchat-1.png",
+                "../../assets/images/vchat-2.png",
+                "../../assets/images/vchat-3.png",
+                "../../assets/images/vchat-4.png",
+                "../../assets/images/vchat-5.png",
+                "../../assets/images/vchat-7.png"
+            ],
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "Next.js / React",
+                    "iconifyClass": "logos:nextjs-icon"
+                },
+                { "name": "Neon DB", "iconifyClass": "logos:neon-icon" },
+                {
+                    "name": "Clerk Service",
+                    "iconifyClass": "simple-icons:clerk"
+                },
+                {
+                    "name": "TailwindCSS",
+                    "iconifyClass": "vscode-icons:file-type-tailwind"
+                },
+                { "name": "TypeScript", "iconifyClass": "devicon:typescript" },
+                { "name": "JavaScript", "iconifyClass": "logos-javascript" },
+                {
+                    "name": "AI Image/Video Models",
+                    "iconifyClass": "streamline-color:ai-edit-spark-flat"
+                }
+            ]
+        }
+    ]
+}

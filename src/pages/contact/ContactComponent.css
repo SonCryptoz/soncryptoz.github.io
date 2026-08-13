@@ -1,0 +1,281 @@
+.contact-main {
+    width: 100%;
+}
+
+.basic-contact {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contact-heading-div {
+    display: flex;
+    gap: 100px;
+}
+
+.blog-heading-div {
+    display: flex;
+}
+
+.address-heading-div {
+    display: flex;
+    margin-top: 80px;
+    gap: 100px;
+}
+
+.blog-heading-div > * {
+    flex: 1;
+}
+
+.contact-heading-div > * {
+    flex: 1;
+}
+
+.address-heading-div > * {
+    flex: 1;
+}
+
+.contact-heading-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ── Contact Triangle Avatar ── */
+.contact-triangle-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-triangle-svg {
+    width: 100%;
+    height: 680px;
+    filter: drop-shadow(0 0 20px rgba(34, 211, 238, 0.18));
+    transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.contact-triangle-svg:hover {
+    filter: drop-shadow(0 0 36px rgba(34, 211, 238, 0.4))
+        drop-shadow(0 0 70px rgba(99, 102, 241, 0.18));
+    transform: scale(1.03);
+}
+
+/* ── Contact decorative triangles ── */
+.contact-deco-tri {
+    position: absolute;
+    pointer-events: none;
+}
+
+.contact-deco-1 {
+    width: 50px;
+    top: -8px;
+    left: 30px;
+    animation: contact-float-tri 7s ease-in-out infinite;
+}
+
+.contact-deco-2 {
+    width: 36px;
+    bottom: 40px;
+    right: -5px;
+    animation: contact-float-tri 6s ease-in-out infinite reverse;
+}
+
+.contact-deco-3 {
+    width: 28px;
+    top: 45%;
+    left: -12px;
+    animation: contact-float-tri 8s ease-in-out infinite 1.5s;
+}
+
+.contact-deco-4 {
+    width: 44px;
+    bottom: 5px;
+    left: 50%;
+    animation: contact-float-tri 5.5s ease-in-out infinite 0.8s;
+}
+
+@keyframes contact-float-tri {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translateY(-10px) rotate(12deg);
+        opacity: 1;
+    }
+}
+
+.contact-heading-img-div > * {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-heading-img-div {
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-heading-text-div {
+    text-align: center;
+}
+
+.blog-heading-text-div {
+    text-align: center;
+}
+
+.address-heading-text-div {
+    text-align: center;
+}
+
+.blog-heading-img-div > * {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-heading-text {
+    font-size: 68px;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.blog-heading-text {
+    font-size: 46px;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.address-heading-text {
+    font-size: 68px;
+    font-family: var(--font-sans);
+    text-align: center;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.contact-header-detail-text {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: var(--font-sans);
+}
+
+.blog-header-detail-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: var(--font-sans);
+}
+
+.resume-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blogsite-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.address-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+@media (max-width: 1380px) {
+    .contact-heading-text {
+        font-size: 50px;
+        margin-top: 60px;
+    }
+
+    .blog-heading-text {
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    .contact-triangle-wrapper {
+        width: 360px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-heading-text {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    .blog-heading-text {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    .address-heading-text {
+        font-size: 20px;
+    }
+
+    .blog-heading-div {
+        flex-direction: column-reverse;
+        margin-top: 60px;
+    }
+
+    .address-heading-div {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .blog-heading-text-div {
+        margin-top: 40px;
+    }
+
+    .address-heading-text-div {
+        margin-top: 40px;
+    }
+
+    .contact-heading-div {
+        flex-direction: column;
+    }
+
+    .contact-triangle-wrapper {
+        width: 280px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .contact-header-detail-text {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: 0px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    .contact-header-detail-text.justify {
+        text-align: center;
+    }
+
+    .blog-header-detail-text {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: 0px;
+        line-height: 1.6;
+        text-align: center;
+    }
+}

@@ -1,0 +1,25 @@
+.experience-accord {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.accord-panel {
+    font-family: var(--font-sans);
+}
+
+.experience-section-title {
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .experience-accord {
+        margin: 20px;
+        margin-top: 50px;
+    }
+
+    .experience-section-title {
+        font-size: 20px;
+    }
+}

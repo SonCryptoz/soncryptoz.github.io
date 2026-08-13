@@ -1,0 +1,41 @@
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0 20px;
+}
+
+.skills-text-div--right .dev-icons {
+    justify-content: flex-end;
+}
+
+.software-skill-inline {
+    display: inline-block;
+    margin-right: 0;
+    font-family: var(--font-sans);
+}
+
+.software-skill-inline > i {
+    color: #818cf8;
+}
+
+.software-skill-inline > i:hover {
+    color: #22d3ee;
+    filter: drop-shadow(0 0 6px rgba(34, 211, 238, 0.5));
+}
+
+.skill-image {
+    height: 48px;
+}
+
+@media (max-width: 768px) {
+    .dev-icons,
+    .skills-text-div--right .dev-icons {
+        justify-content: center;
+    }
+}

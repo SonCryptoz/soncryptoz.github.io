@@ -1,0 +1,37 @@
+/* Hide default cursor only for non-touch devices using media query */
+@media (pointer: fine) {
+    * {
+        cursor: none !important;
+    }
+}
+
+.custom-cursor-main {
+    position: fixed;
+    pointer-events: none;
+    z-index: 99999;
+    /* Adjust tip offset slightly if needed, but 0,0 matches SVG */
+    transform-origin: 0 0;
+    transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.custom-cursor-trail {
+    position: fixed;
+    pointer-events: none;
+    z-index: 99998;
+    opacity: 0.6;
+    transform-origin: 0 0;
+    transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.custom-cursor-main.hovering {
+    transform: scale(1.2);
+}
+
+.custom-cursor-trail.hovering {
+    transform: scale(1.5);
+    opacity: 0.8;
+}
+
+.custom-cursor-main.hidden, .custom-cursor-trail.hidden {
+    opacity: 0;
+}

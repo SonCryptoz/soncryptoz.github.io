@@ -1,0 +1,96 @@
+import React, { Component } from "react";
+import "./DegreeCard.css";
+import { Fade, Flip } from "react-awesome-reveal";
+
+class DegreeCard extends Component {
+    render() {
+        const degree = this.props.degree;
+        const theme = this.props.theme;
+        return (
+            <div className="degree-card">
+                {degree.logo_path && (
+                    <Flip direction="left" triggerOnce duration={2000}>
+                        <div className="card-img">
+                            <img
+                                style={{
+                                    maxWidth: "100%",
+                                    maxHeight: "100%",
+                                    transform: "scale(0.9)",
+                                }}
+                                src={
+                                    new URL(
+                                        `../../assets/images/${degree.logo_path}`,
+                                        import.meta.url,
+                                    ).href
+                                }
+                                alt={degree.alt_name}
+                            />
+                        </div>
+                    </Flip>
+                )}
+                <Fade direction="right" triggerOnce duration={2000}>
+                    <div className="card-body">
+                        <div
+                            className="body-header"
+                            style={{ backgroundColor: theme.headerColor }}
+                        >
+                            <div className="body-header-title">
+                                <h2
+                                    className="card-title"
+                                    style={{ color: theme.highlight }}
+                                >
+                                    {degree.title}
+                                </h2>
+                                <h3
+                                    className="card-subtitle"
+                                    style={{ color: theme.text }}
+                                >
+                                    {degree.subtitle}
+                                </h3>
+                            </div>
+                            <div className="body-header-duration">
+                                <h3
+                                    className="duration"
+                                    style={{ color: theme.secondaryText }}
+                                >
+                                    {degree.duration}
+                                </h3>
+                            </div>
+                        </div>
+                        <div className="body-content">
+                            {degree.descriptions.map((sentence, index) => {
+                                return (
+                                    <p
+                                        key={index}
+                                        className="content-list"
+                                        style={{ color: theme.secondaryText }}
+                                    >
+                                        {sentence}
+                                    </p>
+                                );
+                            })}
+                            {degree.website_link && (
+                                <a
+                                    href={degree.website_link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <div className="visit-btn">
+                                        <p
+                                            className="btn"
+                                            style={{ color: theme.text }}
+                                        >
+                                            Visit Website
+                                        </p>
+                                    </div>
+                                </a>
+                            )}
+                        </div>
+                    </div>
+                </Fade>
+            </div>
+        );
+    }
+}
+
+export default DegreeCard;

@@ -1,0 +1,344 @@
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+.greet-main {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 150px;
+}
+
+.gretting-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+}
+
+.greeting-main {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.greeting-main > * {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.greeting-text-div {
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-greeting-div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.greeting-text {
+    font-size: 68px;
+    margin-top: 0;
+    line-height: 1.1;
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+}
+
+.greeting-nickname {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: var(--font-sans);
+    font-style: italic;
+}
+
+.greeting-text-p {
+    font-size: 38px;
+    line-height: 50px;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.greeting-text-p.typewriter {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    min-height: 110px;
+}
+
+.typewriter-text {
+    display: inline;
+}
+
+.typewriter-cursor {
+    display: inline-block;
+    color: currentColor;
+    animation: blink-cursor 1s step-end infinite;
+}
+
+.typewriter-cursor::after {
+    content: "_";
+    font-weight: bold;
+}
+
+@keyframes blink-cursor {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.greeting-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* ── Triangle Avatar Section ── */
+.triangle-avatar-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.triangle-avatar-wrapper {
+    position: relative;
+    width: 320px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle-avatar-svg {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    filter: drop-shadow(0 0 24px rgba(34, 211, 238, 0.2));
+    transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.triangle-avatar-svg:hover {
+    filter: drop-shadow(0 0 40px rgba(34, 211, 238, 0.45))
+        drop-shadow(0 0 80px rgba(99, 102, 241, 0.2));
+    transform: scale(1.03);
+}
+
+/* ── Info block below triangle ── */
+.triangle-avatar-info {
+    text-align: left;
+    max-width: 420px;
+    margin-top: 8px;
+}
+
+.avatar-status {
+    font-family: var(--font-sans);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    animation: pulse-dot 2s ease-in-out infinite;
+    box-shadow: 0 0 8px currentColor;
+}
+
+@keyframes pulse-dot {
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(0.85);
+    }
+}
+
+.avatar-tagline {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.avatar-cta-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.avatar-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 22px;
+    border-radius: 6px;
+    font-family: var(--font-sans);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.avatar-btn-primary {
+    border: 1px solid #22d3ee;
+    background-color: #22d3ee;
+    color: #060912;
+}
+
+.avatar-btn-primary:hover {
+    background-color: #060912;
+    color: #22d3ee;
+}
+
+.avatar-btn-outline {
+    border-color: #d6c8ff;
+    color: #d6c8ff;
+    background: transparent;
+    border: 1px solid;
+}
+
+.avatar-btn-outline:hover {
+    background-color: #d6c8ff;
+    color: #060912;
+}
+
+/* ── Decorative satellite triangles ── */
+.deco-triangle {
+    position: absolute;
+    pointer-events: none;
+}
+
+.deco-tri-1 {
+    width: 60px;
+    top: -10px;
+    right: 20px;
+    animation: float-tri 6s ease-in-out infinite;
+}
+
+.deco-tri-2 {
+    width: 40px;
+    bottom: 50px;
+    left: -10px;
+    animation: float-tri 8s ease-in-out infinite reverse;
+}
+
+.deco-tri-3 {
+    width: 30px;
+    top: 50%;
+    right: -15px;
+    animation: float-tri 5s ease-in-out infinite 1s;
+}
+
+.deco-tri-4 {
+    width: 50px;
+    bottom: 10px;
+    right: 60px;
+    animation: float-tri 7s ease-in-out infinite 0.5s;
+}
+
+.deco-tri-5 {
+    width: 35px;
+    top: 20%;
+    left: -20px;
+    animation: float-tri 9s ease-in-out infinite 2s;
+}
+
+@keyframes float-tri {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translateY(-12px) rotate(15deg);
+        opacity: 1;
+    }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .greeting-text {
+        font-size: 50px;
+    }
+    .greeting-text-p {
+        font-size: 20px;
+    }
+    .triangle-avatar-wrapper {
+        width: 380px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-greeting-div {
+        justify-content: space-around;
+    }
+    .greet-main {
+        padding-top: 100px;
+    }
+    .greeting-text {
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .greeting-nickname {
+        font-size: 25px;
+        text-align: center;
+    }
+    .greeting-text-p {
+        font-size: 16px;
+        margin-right: 0px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .greeting-main {
+        display: block;
+        margin-top: 0;
+    }
+    .greeting-image-div {
+        margin-top: 20px;
+    }
+    .triangle-avatar-wrapper {
+        width: 300px;
+        height: 320px;
+        margin: 40px auto;
+    }
+    .triangle-avatar-info {
+        text-align: center;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .avatar-status {
+        justify-content: center;
+    }
+    .avatar-cta-buttons {
+        justify-content: center;
+    }
+    .avatar-btn {
+        padding: 12px 24px;
+        font-size: 12px;
+    }
+
+    .portfolio-repo-btn-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,159 @@
+.degree-card {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-family: var(--font-sans);
+    font-size: 30px;
+    line-height: 1;
+}
+
+.card-subtitle {
+    font-family: var(--font-sans);
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.card-img {
+    width: 200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #1e3a5f;
+    box-shadow: 0 0 12px rgba(34, 211, 238, 0.15);
+}
+
+.body-header {
+    max-width: inherit;
+    display: flex;
+    /* width: 100%; */
+    /* background-color:#6c63ff99; */
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+}
+
+.body-header-title {
+    padding-left: 10px;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.body-header-duration {
+    width: 20%;
+}
+.duration {
+    font-family: var(--font-sans);
+    font-size: 20px;
+    /* color: #212121; */
+    padding-right: 10px;
+    float: right;
+}
+
+.body-content {
+    max-width: inherit;
+    border-radius: 0px 0px 7px 7px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-content a {
+    text-decoration: none;
+}
+
+.content-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--font-sans);
+    text-align: justify;
+}
+
+.card-body {
+    width: 100%;
+    border-bottom: 1px solid #1e3a5f;
+    border-left: 1px solid #1e3a5f;
+    border-right: 1px solid #1e3a5f;
+    border-radius: 7px;
+    box-shadow: 0 4px 24px rgba(34, 211, 238, 0.08),
+        0 0 0 1px rgba(99, 102, 241, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card-body:hover {
+    box-shadow: 0 4px 32px rgba(34, 211, 238, 0.18),
+        0 0 0 1px rgba(99, 102, 241, 0.25);
+}
+
+.visit-btn {
+    display: block;
+    width: fit-content;
+    margin: 0px 10px 10px auto;
+    padding: 10px;
+    border-radius: 7px;
+    border: 0px;
+    transition: transform 0.2s linear;
+}
+
+.visit-btn:hover {
+    transform: scale(0.95);
+}
+
+.btn {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-sans);
+}
+
+@media (max-width: 1380px) {
+}
+
+@media (max-width: 768px) {
+    .degree-card {
+        flex-direction: column;
+    }
+
+    .body-header {
+        flex-direction: column;
+    }
+
+    .body-header-title {
+        width: 100%;
+    }
+
+    .body-header-duration {
+        padding-left: 10px;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .duration {
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        float: left;
+    }
+
+    .card-img {
+        width: 200px;
+    }
+
+    .card-body {
+        width: 100% !important;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-subtitle {
+        font-size: 16px;
+    }
+}
