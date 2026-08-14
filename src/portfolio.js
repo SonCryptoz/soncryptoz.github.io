@@ -20,8 +20,8 @@ const greeting = {
     logo_name: "Nson",
     nickname: "(^o.o^)",
     subTitle: [
-        "I can center a <div> in under 5 minutes.",
         "Designing websites faster than you can say 'HTML'",
+        "Making the web look good and work better.",
         "Fixing bugs and taking names",
         "I Google things like a Pro."
     ],
