@@ -19,7 +19,12 @@ const greeting = {
     title: "Nguyễn Sơn",
     logo_name: "Nson",
     nickname: "(^o.o^)",
-    subTitle: "Designing websites faster than you can say 'HTML'",
+    subTitle: [
+        "I can center a <div> in under 5 minutes.",
+        "Designing websites faster than you can say 'HTML'",
+        "Fixing bugs and taking names",
+        "I Google things like a Pro."
+    ],
     resumeLink:
         "https://drive.google.com/file/d/1yXcjE6a2a5RkelH4iKrPYcQzjhQ6DZaK/view?usp=sharing", // link cv
     portfolio_repository: "https://github.com/SonCryptoz",
@@ -224,7 +229,7 @@ const experience = {
     title: "Kinh nghiệm",
     subtitle: "Làm việc và Thực tập",
     description:
-        "Thực tập Full-Stack Developer tại Công ty TNHH Công nghệ và Truyền thông số Nam Anh, trực tiếp xây dựng và triển khai website thương mại điện tử cho khách hàng thực tế. Chịu trách nhiệm phát triển giao diện, tối ưu hiệu suất và phối hợp cùng đội ngũ trong quy trình phát triển website.",
+        "Thực tập Full-Stack Developer tại Công ty TNHH Công nghệ và Truyền thông số Nam Anh, trực tiếp xây dựng và triển khai website cho khách hàng thực tế. Chịu trách nhiệm phát triển giao diện, tối ưu hiệu suất và phối hợp cùng đội ngũ trong quy trình phát triển website.",
     header_image_path: "experience.svg",
     sections: [
         {
@@ -241,7 +246,7 @@ const experience = {
                     duration: "16-02-2025",
                     location: "Hải Dương, Việt Nam",
                     description:
-                        "Xây dựng website quảng cáo cho công ty CP Nhôm kính Nhất Kim bằng HTML, CSS, JavaScript. Đảm bảo giao diện responsive, tối ưu hiệu suất hiển thị trên đa thiết bị.",
+                        "Phát triển website quảng cáo nhằm giới thiệu sản phẩm, dịch vụ của Công ty Cổ phần Nhôm kính Nhất Kim, với giao diện responsive và trải nghiệm tối ưu trên đa thiết bị.",
                     color: "#ee3c26",
                 },
                 {
@@ -254,7 +259,7 @@ const experience = {
                     duration: "02-01-2025",
                     location: "Hải Dương, Việt Nam",
                     description:
-                        "Phát triển website linh kiện điện tử của công ty bằng HTML, CSS, JavaScript, Bootstrap. Xây dựng chức năng đặt hàng và quản lý sản phẩm, đưa website vào vận hành thực tế cho khách hàng.",
+                        "Phát triển website thương mại điện tử cho công ty, tập trung vào quản lý sản phẩm và quy trình đặt hàng. Đưa website vào vận hành thực tế, phục vụ nhu cầu kinh doanh và khách hàng của doanh nghiệp.",
                     color: "#000000",
                 },
                 {

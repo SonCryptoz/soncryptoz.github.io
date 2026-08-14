@@ -13,17 +13,20 @@ function TypewriterText({
     deletingSpeed = 50,
     pause = 1800,
 }) {
+    const texts = React.useMemo(() => (Array.isArray(text) ? text : [text]), [text]);
+    const [textIndex, setTextIndex] = useState(0);
     const [phase, setPhase] = useState("waiting");
     const [charIndex, setCharIndex] = useState(0);
 
     useEffect(() => {
-        if (!text) return;
+        if (!texts || texts.length === 0) return;
+        const currentText = texts[textIndex];
         let timer = null;
 
         if (phase === "waiting") {
             timer = window.setTimeout(() => setPhase("typing"), startDelay);
         } else if (phase === "typing") {
-            if (charIndex < text.length) {
+            if (charIndex < currentText.length) {
                 timer = window.setTimeout(
                     () => setCharIndex((index) => index + 1),
                     typingSpeed,
@@ -38,16 +41,20 @@ function TypewriterText({
                     deletingSpeed,
                 );
             } else {
-                timer = window.setTimeout(() => setPhase("typing"), pause);
+                timer = window.setTimeout(() => {
+                    setTextIndex((prev) => (prev + 1) % texts.length);
+                    setPhase("typing");
+                }, pause);
             }
         }
 
         return () => window.clearTimeout(timer);
-    }, [phase, charIndex, text, startDelay, typingSpeed, deletingSpeed, pause]);
+    }, [phase, charIndex, texts, textIndex, startDelay, typingSpeed, deletingSpeed, pause]);
 
+    const currentText = texts[textIndex] || "";
     return (
         <>
-            <span className="typewriter-text">{text.slice(0, charIndex)}</span>
+            <span className="typewriter-text">{currentText.slice(0, charIndex)}</span>
             <span className="typewriter-cursor" aria-hidden="true" />
         </>
     );
