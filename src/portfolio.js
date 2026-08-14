@@ -21,9 +21,9 @@ const greeting = {
     nickname: "(^o.o^)",
     subTitle: [
         "Designing websites faster than you can say 'HTML'",
-        "Making the web look good and work better.",
+        "Making the web look good and work better",
         "Fixing bugs and taking names",
-        "I Google things like a Pro."
+        "I Google things like a Pro"
     ],
     resumeLink:
         "https://drive.google.com/file/d/1yXcjE6a2a5RkelH4iKrPYcQzjhQ6DZaK/view?usp=sharing", // link cv
