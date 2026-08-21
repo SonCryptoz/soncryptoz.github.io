@@ -61,7 +61,7 @@ class Projects extends Component {
                     })}
                 </div>
                 <Button
-                    text={"Xem thêm"}
+                    text={"More Projects"}
                     className="project-button"
                     href={greeting.githubProfile}
                     newTab={true}

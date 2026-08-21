@@ -21,25 +21,35 @@ function GetSkillSvg(props) {
 function highlightText(text, theme) {
     if (typeof text !== "string") return text;
     const highlights = [
-        "hiệu suất tải trang",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "Supabase",
+        "RESTful APIs",
+        "GraphQL APIs",
+        "RESTful",
+        "APIs",
+        "API",
         "SEO",
         "responsive",
-        "API",
-        "RESTful",
-        "ReactJS",
-        "NextJS",
-        "Tailwind CSS",
-        "TypeScript",
-        "Node.js",
-        "ExpressJS",
-        "MongoDB",
-        "Supabase",
-        "MySQL",
-        "xác thực",
-        "phân quyền",
-        "bảo mật dữ liệu",
+        "high-performance",
+        "cross-device compatibility",
+        "relational and NoSQL databases",
+        "authentication",
+        "role-based access control",
+        "data protection",
+        "speed",
     ];
-    const regex = new RegExp(`(${highlights.join("|")})`, "gi");
+    const sortedHighlights = [...highlights].sort((a, b) => b.length - a.length);
+    const escaped = sortedHighlights.map((h) =>
+        h.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
+    );
+    const regex = new RegExp(`(${escaped.join("|")})`, "gi");
     const parts = text.split(regex);
 
     return parts.map((part, index) => {

@@ -16,9 +16,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-    title: "Nguyễn Sơn",
+    title: "Nguyen Son",
     logo_name: "Nson",
-    nickname: "(^o.o^)",
+    nickname: "Web Developer",
     subTitle: [
         "Designing websites faster than you can say 'HTML'",
         "Making the web look good and work better",
@@ -64,9 +64,9 @@ const skills = {
             title: "Front-End Development",
             fileName: "FullStackImg",
             skills: [
-                "Phát triển giao diện web bằng ReactJS, NextJS, TypeScript và Tailwind CSS.",
-                "Tối ưu hiệu suất tải trang, SEO và thiết kế responsive đa thiết bị.",
-                "Kết nối và xử lý dữ liệu từ nhiều nguồn API.",
+                "Building responsive, high-performance web applications using React, Next.js, TypeScript, and Tailwind CSS.",
+                "Optimizing page load speed, SEO, and ensuring seamless cross-device compatibility.",
+                "Integrating and managing stateful data workflows with RESTful APIs.",
             ],
             softwareSkills: [
                 {
@@ -133,9 +133,9 @@ const skills = {
             title: "Back-End Development",
             fileName: "DataScienceImg",
             skills: [
-                "Xây dựng RESTful API bằng Node.js, ExpressJS phục vụ ứng dụng production.",
-                "Thiết kế và quản lý cơ sở dữ liệu với MongoDB, MySQL, Supabase.",
-                "Triển khai xác thực, phân quyền và bảo mật dữ liệu cho hệ thống.",
+                "Developing scalable RESTful APIs with Node.js and Express for production applications.",
+                "Designing and optimizing relational and NoSQL databases using MongoDB, MySQL, and Supabase.",
+                "Implementing secure authentication, role-based access control, and robust data protection standards.",
             ],
             softwareSkills: [
                 {
@@ -195,15 +195,15 @@ const competitiveSites = {
 const degrees = {
     degrees: [
         {
-            title: "Đại học Hải Dương",
-            subtitle: "Cử nhân Công nghệ thông tin",
+            title: "Hai Duong University",
+            subtitle: "Bachelor of Information Technology",
             logo_path: "dhhd.png",
             alt_name: "ITUHD",
             duration: "2021 - 2025",
             descriptions: [
-                "Có nền tảng về Cấu trúc dữ liệu & Thuật toán, Cơ sở dữ liệu, Mạng máy tính, Hệ điều hành.",
-                "Web Development: HTML, CSS, JavaScript, React, Node.js — từ giao diện đến xử lý dữ liệu client-server.",
-                "Thực hành qua các dự án CRUD, authentication, RESTful API; sử dụng Git trong quy trình phát triển phần mềm.",
+                "Built a solid foundation in Data Structures & Algorithms, Database Management Systems, Computer Networks, and Operating Systems.",
+                "Specialized in Web Development: HTML, CSS, JavaScript, React, and Node.js — spanning UI design to client-server architecture.",
+                "Hands-on experience developing CRUD applications, authentication systems, RESTful APIs, and adopting Git workflows in software development.",
             ],
             website_link: "https://uhd.edu.vn/",
         },
@@ -226,52 +226,52 @@ const certifications = {
 
 // Experience Page
 const experience = {
-    title: "Kinh nghiệm",
-    subtitle: "Làm việc và Thực tập",
+    title: "Experience",
+    subtitle: "Work & Internships",
     description:
-        "Thực tập Full-Stack Developer tại Công ty TNHH Công nghệ và Truyền thông số Nam Anh, trực tiếp xây dựng và triển khai website cho khách hàng thực tế. Chịu trách nhiệm phát triển giao diện, tối ưu hiệu suất và phối hợp cùng đội ngũ trong quy trình phát triển website.",
+        "Full-Stack Developer Intern at Nam Anh Digital Media & Technology Co., Ltd., building and deploying production-ready web solutions for real-world clients. Responsible for responsive UI development, performance optimization, and collaborating across teams throughout the project lifecycle.",
     header_image_path: "experience.svg",
     sections: [
         {
-            title: "Công việc đã làm",
+            title: "Work Experience",
             work: true,
             experiences: [
                 {
-                    title: "Thực tập sinh Front-End Developer",
+                    title: "Front-End Developer Intern",
                     company:
-                        "Công ty TNHH Công nghệ và Truyền thông số Nam Anh",
+                        "Nam Anh Digital Media & Technology Co., Ltd.",
                     company_url:
                         "https://github.com/SonCryptoz/Nhom-Kinh-Nhat-Kim",
                     logo_path: "nhat-kim-logo.png",
                     duration: "16-02-2025",
-                    location: "Hải Dương, Việt Nam",
+                    location: "Hai Duong, Vietnam",
                     description:
-                        "Phát triển website quảng cáo nhằm giới thiệu sản phẩm, dịch vụ của Công ty Cổ phần Nhôm kính Nhất Kim, với giao diện responsive và trải nghiệm tối ưu trên đa thiết bị.",
+                        "Developed a commercial showcase website for Nhat Kim Aluminum & Glass JSC, delivering a responsive layout, modern UI, and smooth multi-device experience.",
                     color: "#ee3c26",
                 },
                 {
-                    title: "Thực tập sinh Full-Stack Developer",
+                    title: "Full-Stack Developer Intern",
                     company:
-                        "Công ty TNHH Công nghệ và Truyền thông số Nam Anh",
+                        "Nam Anh Digital Media & Technology Co., Ltd.",
                     company_url:
                         "https://github.com/SonCryptoz/Linh-Kien-Nam-Anh",
                     logo_path: "namanh_logo.png",
                     duration: "02-01-2025",
-                    location: "Hải Dương, Việt Nam",
+                    location: "Hai Duong, Vietnam",
                     description:
-                        "Phát triển website thương mại điện tử cho công ty, tập trung vào quản lý sản phẩm và quy trình đặt hàng. Đưa website vào vận hành thực tế, phục vụ nhu cầu kinh doanh và khách hàng của doanh nghiệp.",
+                        "Engineered an e-commerce platform for the company, focusing on product management and order processing workflows. Successfully deployed and maintained the site in production to support active business operations.",
                     color: "#000000",
                 },
                 {
-                    title: "Tiếp thị và Quảng bá sản phẩm",
+                    title: "Product Marketing & Promotion",
                     company:
-                        "Công ty TNHH Công nghệ và Truyền thông số Nam Anh",
+                        "Nam Anh Digital Media & Technology Co., Ltd.",
                     company_url: "#",
                     logo_path: "social_media.png",
                     duration: "24-11-2024",
-                    location: "Hải Dương, Việt Nam",
+                    location: "Hai Duong, Vietnam",
                     description:
-                        "Lựa chọn và quảng bá sản phẩm thông qua nội dung trên các nền tảng mạng xã hội. Tạo nội dung giới thiệu sản phẩm, liên kết affiliate và theo dõi hiệu quả nhằm tăng lượt truy cập và thúc đẩy đơn hàng.",
+                        "Curated and produced engaging tech product content across social channels. Managed affiliate marketing campaigns and analyzed traffic performance to optimize conversion rates and drive sales.",
                     color: "#ee3c26",
                 },
             ],
@@ -281,9 +281,9 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-    title: "Dự án",
+    title: "Projects",
     description:
-        "Các dự án Website Full-Stack, Front-End và Back-End của tôi đã xây dựng và triển khai thực tế, sử dụng ReactJS, NodeJS, MongoDB cùng nhiều công nghệ khác.",
+        "A showcase of Full-Stack, Front-End, and Back-End web applications I have built and deployed, utilizing ReactJS, NodeJS, MongoDB, and modern web technologies.",
     avatar_image_path: "projects_image.svg",
 };
 
@@ -322,23 +322,23 @@ const publications = {
 // Contact Page
 const contactPageData = {
     contactSection: {
-        title: "Liên hệ với tôi",
+        title: "Contact Me",
         profile_image_path: "animated_son.png",
         description:
-            "Tôi luôn sẵn sàng đón nhận những cơ hội và thử thách mới. Nếu bạn có câu hỏi hoặc muốn hợp tác, hãy liên hệ qua email hoặc các kênh mạng xã hội bên dưới.",
+            "I'm always open to discussing new opportunities, creative ideas, or potential collaborations. Feel free to connect with me via email or social media!",
     },
     blogSection: {
         title: "Blogs",
         subtitle:
-            "Tôi thường chia sẻ kiến thức và trải nghiệm về các công nghệ mới trên blog cá nhân.",
+            "Writing about modern web development trends, tutorials, and hands-on coding experiences.",
         avatar_image_path: "blogs_image.svg",
     },
     addressSection: {
-        title: "Địa chỉ",
-        subtitle: "Hải Dương, Hải Phòng, Việt Nam",
-        locality: "Hải Phòng",
+        title: "Location",
+        subtitle: "Hai Duong / Hai Phong, Vietnam",
+        locality: "Hai Phong",
         country: "VIE",
-        region: "Hải Phòng",
+        region: "Hai Phong",
         postalCode: "01234",
         streetAddress: "An Ninh",
         avatar_image_path: "address_image.svg",

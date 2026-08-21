@@ -188,7 +188,7 @@ class Contact extends Component {
                                 <SocialMedia theme={theme} />
                                 <div className="resume-btn-div">
                                     <Button
-                                        text="CV của tôi"
+                                        text="See My Resume"
                                         newTab={true}
                                         href={greeting.resumeLink}
                                         theme={theme}

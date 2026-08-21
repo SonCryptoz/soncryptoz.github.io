@@ -58,11 +58,11 @@ class Header extends Component {
     render() {
         const { theme } = this.props;
         const navItems = [
-            { id: "home", label: "Trang chủ" },
-            { id: "education", label: "Học vấn" },
-            { id: "experience", label: "Kinh nghiệm" },
-            { id: "projects", label: "Dự án" },
-            { id: "contact", label: "Liên hệ" },
+            { id: "home", label: "Home" },
+            { id: "education", label: "Education" },
+            { id: "experience", label: "Experience" },
+            { id: "projects", label: "Projects" },
+            { id: "contact", label: "Contact" },
         ];
 
         return (

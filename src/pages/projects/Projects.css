@@ -14,6 +14,7 @@
 
 .projects-heading-div {
     display: flex;
+    align-items: center;
     gap: 100px;
 }
 
@@ -42,7 +43,6 @@
     font-family: var(--font-sans);
     line-height: 1.1;
     text-align: center;
-    margin-top: 80px;
     text-transform: uppercase;
 }
 
@@ -88,7 +88,6 @@
 @media (max-width: 1380px) {
     .projects-heading-text {
         font-size: 50px;
-        margin-top: 80px;
     }
     .projects-heading-sub-text {
         font-size: 25px;

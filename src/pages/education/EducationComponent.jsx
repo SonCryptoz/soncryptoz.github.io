@@ -30,13 +30,13 @@ class Education extends Component {
                                         className="heading-text"
                                         style={{ color: theme.text }}
                                     >
-                                        Học vấn
+                                        Education
                                     </h1>
                                     <h3
                                         className="heading-sub-text"
                                         style={{ color: theme.text }}
                                     >
-                                        Chuyên môn và chứng chỉ cơ bản
+                                        Basic Qualification and Certifications
                                     </h3>
                                     <CompetitiveSites
                                         logos={competitiveSites.competitiveSites}

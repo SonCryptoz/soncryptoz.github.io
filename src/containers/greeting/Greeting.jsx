@@ -271,17 +271,15 @@ export default function Greeting(props) {
                                     <div className="avatar-cta-buttons">
                                         <a
                                             className="avatar-btn avatar-btn-primary"
-                                            href={greeting.resumeLink}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
+                                            href={`#projects`}
                                         >
-                                            CV của tôi
+                                            View Projects
                                         </a>
                                         <a
                                             className="avatar-btn avatar-btn-outline"
                                             href={`#contact`}
                                         >
-                                            Liên hệ
+                                            Contact
                                         </a>
                                     </div>
                                 </div>

@@ -15,7 +15,7 @@ class Educations extends Component {
                             className="educations-header"
                             style={{ color: theme.text }}
                         >
-                            Bằng cấp đã nhận
+                            Degree Received
                         </h1>
                     </Fade>
                 </div>
