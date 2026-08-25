@@ -195,7 +195,7 @@ const competitiveSites = {
 const degrees = {
     degrees: [
         {
-            title: "Hai Duong University",
+            title: "University of Hai Duong",
             subtitle: "Bachelor of Information Technology",
             logo_path: "dhhd.png",
             alt_name: "ITUHD",

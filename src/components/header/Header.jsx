@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./Header.css";
 import { greeting } from "../../portfolio";
 import SeoHeader from "../seoHeader/SeoHeader";
+import { chosenTheme } from "../../theme";
 
 class Header extends Component {
     constructor(props) {
@@ -68,7 +69,7 @@ class Header extends Component {
         return (
             <>
                 <SeoHeader />
-                <header className="header">
+                <header className="header" style={{ backgroundColor: chosenTheme.body}}>
                     <a href="#home" className="logo" onClick={this.closeMenu}>
                         <span
                             className="logo-name"
