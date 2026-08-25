@@ -197,32 +197,6 @@ class Contact extends Component {
                             </div>
                         </div>
                     </Fade>
-                    {/* <Fade direction="up" triggerOnce duration={1000}>
-            <div className="blog-heading-div">
-              <div className="blog-heading-text-div">
-                <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                  {blogSection["title"]}
-                </h1>
-                <p
-                  className="blog-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {blogSection["subtitle"]}
-                </p>
-                <div className="blogsite-btn-div">
-                  <Button
-                    text="Ghé thăm blog của tôi"
-                    newTab={true}
-                    href={blogSection.link}
-                    theme={theme}
-                  />
-                </div>
-              </div>
-              <div className="blog-heading-img-div">
-                <BlogsImg theme={theme} />
-              </div>
-            </div>
-          </Fade> */}
                     <Fade direction="right" triggerOnce duration={1000}>
                         <div className="address-heading-div">
                             <div className="address-heading-text-div">

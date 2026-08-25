@@ -26,7 +26,7 @@ const greeting = {
         "I Google things like a Pro"
     ],
     resumeLink:
-        "https://drive.google.com/file/d/1yXcjE6a2a5RkelH4iKrPYcQzjhQ6DZaK/view?usp=sharing", // link cv
+        "https://drive.google.com/file/d/1lTdZE6SwuzY5tiJbjb552EcAMLBSE5rM/view?usp=sharing", // link cv
     portfolio_repository: "https://github.com/SonCryptoz",
     githubProfile: "https://github.com/SonCryptoz",
 };
@@ -229,7 +229,7 @@ const experience = {
     title: "Experience",
     subtitle: "Work & Internships",
     description:
-        "Full-Stack Developer Intern at Nam Anh Digital Media & Technology Co., Ltd., building and deploying production-ready web solutions for real-world clients. Responsible for responsive UI development, performance optimization, and collaborating across teams throughout the project lifecycle.",
+        "Front-End Developer Intern at Nam Anh Digital Media & Technology Co., Ltd., building and deploying production-ready web solutions for real-world clients. Responsible for responsive UI development, performance optimization, and collaborating across teams throughout the project lifecycle.",
     header_image_path: "experience.svg",
     sections: [
         {
@@ -243,20 +243,20 @@ const experience = {
                     company_url:
                         "https://github.com/SonCryptoz/Nhom-Kinh-Nhat-Kim",
                     logo_path: "nhat-kim-logo.png",
-                    duration: "16-02-2025",
+                    duration: "February 16, 2025",
                     location: "Hai Duong, Vietnam",
                     description:
                         "Developed a commercial showcase website for Nhat Kim Aluminum & Glass JSC, delivering a responsive layout, modern UI, and smooth multi-device experience.",
                     color: "#ee3c26",
                 },
                 {
-                    title: "Full-Stack Developer Intern",
+                    title: "Front-End Developer Intern",
                     company:
                         "Nam Anh Digital Media & Technology Co., Ltd.",
                     company_url:
                         "https://github.com/SonCryptoz/Linh-Kien-Nam-Anh",
                     logo_path: "namanh_logo.png",
-                    duration: "02-01-2025",
+                    duration: "January 2, 2025",
                     location: "Hai Duong, Vietnam",
                     description:
                         "Engineered an e-commerce platform for the company, focusing on product management and order processing workflows. Successfully deployed and maintained the site in production to support active business operations.",
@@ -268,7 +268,7 @@ const experience = {
                         "Nam Anh Digital Media & Technology Co., Ltd.",
                     company_url: "#",
                     logo_path: "social_media.png",
-                    duration: "24-11-2024",
+                    duration: "November 24, 2024",
                     location: "Hai Duong, Vietnam",
                     description:
                         "Curated and produced engaging tech product content across social channels. Managed affiliate marketing campaigns and analyzed traffic performance to optimize conversion rates and drive sales.",
@@ -335,7 +335,7 @@ const contactPageData = {
     },
     addressSection: {
         title: "Location",
-        subtitle: "Hai Duong / Hai Phong, Vietnam",
+        subtitle: "Hai Duong, Hai Phong, Vietnam",
         locality: "Hai Phong",
         country: "VIE",
         region: "Hai Phong",
