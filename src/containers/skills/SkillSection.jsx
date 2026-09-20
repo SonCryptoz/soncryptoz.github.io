@@ -30,6 +30,7 @@ function highlightText(text, theme) {
         "MongoDB",
         "MySQL",
         "Supabase",
+        "PostgreSQL",
         "RESTful APIs",
         "GraphQL APIs",
         "RESTful",

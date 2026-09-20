@@ -134,7 +134,7 @@ const skills = {
             fileName: "DataScienceImg",
             skills: [
                 "Developing scalable RESTful APIs with Node.js and Express for production applications.",
-                "Designing and optimizing relational and NoSQL databases using MongoDB, MySQL, and Supabase.",
+                "Designing and optimizing relational and NoSQL databases using MongoDB, MySQL, and PostgreSQL.",
                 "Implementing secure authentication, role-based access control, and robust data protection standards.",
             ],
             softwareSkills: [
@@ -160,6 +160,13 @@ const skills = {
                     },
                 },
                 {
+                    skillName: "MySQL",
+                    fontAwesomeClassname: "devicon-plain:mysql",
+                    style: {
+                        color: "#1A6897",
+                    },
+                },
+                {
                     skillName: "Supabase",
                     fontAwesomeClassname: "simple-icons:supabase",
                     style: {
@@ -167,10 +174,10 @@ const skills = {
                     },
                 },
                 {
-                    skillName: "MySQL",
-                    fontAwesomeClassname: "devicon-plain:mysql",
+                    skillName: "PostgreSQL",
+                    fontAwesomeClassname: "devicon-plain:postgresql",
                     style: {
-                        color: "#1A6897",
+                        color: "#31648C",
                     },
                 },
             ],
