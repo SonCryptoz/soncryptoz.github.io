@@ -128,7 +128,7 @@ export default function GithubRepoCard({ repo, theme, index = 0 }) {
                                             className="iconify"
                                             data-icon="mdi:open-in-new"
                                         ></span>{" "}
-                                        Demo
+                                        Visit
                                     </button>
                                 )}
                             </div>

@@ -18,7 +18,7 @@ const seo = {
 const greeting = {
     title: "Nguyen Son",
     logo_name: "Nson",
-    nickname: "Web Developer",
+    nickname: "Website Developer",
     subTitle: [
         "Designing websites faster than you can say 'HTML'",
         "Making the web look good and work better",
