@@ -52,7 +52,7 @@ const socialMediaLinks = [
     },
     {
         name: "Instagram",
-        link: "https://www.instagram.com/son_intl/",
+        link: "https://www.instagram.com/son_998ix",
         fontAwesomeIcon: "fa-instagram",
         backgroundColor: "#E4405F",
     },
